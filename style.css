@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Zain:wght@700&display=swap");
+
+:root {
+  /* Colors */
+  --main-color: #deab5f;
+  --primary-color: #312e2e;
+
+  /* Fonts */
+  --nav-font: sans-serif;
+}
+
+/* Utility Styles */
+button {
+  padding: 10px 30px;
+  width: fit-content;
+  background: var(--main-color);
+  border: none;
+  cursor: pointer;
+}
+
+/* Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #100e0f;
+}
+
+/* Nav Start */
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  color: #ffffff;
+  font-family: var(--nav-font);
+  padding-top: 15px;
+}
+
+li {
+  list-style: none;
+  display: inline;
+}
+
+li a {
+  color: #ffffff;
+  text-decoration: none;
+  margin-left: 40px;
+  padding-bottom: 5px;
+}
+
+li a:hover {
+  border-bottom: solid 2px var(--main-color);
+}
+/* Nav End */
+
+/* First Section */
+.header {
+  background: url("Images/pexels-nao-triponez-129207.jpg") no-repeat
+    center/cover;
+  height: 100vh;
+  color: #ffffff;
+  text-align: center;
+  font-family: "Playfair Display", serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.line1 {
+  display: block;
+  margin-top: 250px;
+  margin-bottom: 500px;
+}
+
+/* End First Section */
