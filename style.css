@@ -70,9 +70,13 @@ li a:hover {
   justify-content: space-between;
 }
 
+.main-headings {
+  font-size: 4rem;
+}
+
 .line1 {
   display: block;
-  margin-top: 250px;
+  margin-top: 100px;
   margin-bottom: 500px;
 }
 
