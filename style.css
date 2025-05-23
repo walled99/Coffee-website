@@ -72,12 +72,12 @@ li a:hover {
 
 .main-headings {
   font-size: 4rem;
+  word-spacing: 10px;
 }
 
 .line1 {
   display: block;
-  margin-top: 100px;
-  margin-bottom: 500px;
+  margin-top: 112px;
+  margin-bottom: 565px;
 }
-
 /* End First Section */
