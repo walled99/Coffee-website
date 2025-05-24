@@ -27,6 +27,7 @@ button {
 
 body {
   background: #100e0f;
+  color: #ffffff;
 }
 
 /* Nav Start */
@@ -34,7 +35,6 @@ nav {
   display: flex;
   justify-content: space-around;
   align-items: center;
-  color: #ffffff;
   font-family: var(--nav-font);
   padding-top: 15px;
 }
@@ -80,4 +80,60 @@ li a:hover {
   margin-top: 112px;
   margin-bottom: 565px;
 }
+
+.main-btn {
+  margin-top: 20px;
+}
 /* End First Section */
+
+/* Second section */
+
+.img-container {
+  width: 500px;
+}
+
+.img {
+  width: 400px;
+  height: 400px;
+  background: url("Images/pexels-chitokan-2183027-removebg-preview.png")
+    no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.section-story {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 15%;
+}
+
+.story-details {
+  max-width: 500px;
+  position: relative;
+}
+.story-details h2 {
+  padding-left: 5px;
+  font-family: "Playfair Display", serif;
+  font-size: 4rem;
+  text-transform: uppercase;
+}
+.story-details p {
+  font-family: sans-serif;
+  line-height: 20px;
+  margin: 20px 0;
+}
+
+.line::before {
+  content: "";
+  width: 65px;
+  height: 2px;
+  background-color: #deab5f;
+  color: aqua;
+  position: absolute;
+  left: -80px;
+  top: 45px;
+}
+
+/* End second section */
