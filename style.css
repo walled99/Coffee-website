@@ -92,7 +92,7 @@ li a:hover {
   width: 500px;
 }
 
-.img {
+.img-coffee {
   width: 400px;
   height: 400px;
   background: url("Images/pexels-chitokan-2183027-removebg-preview.png")
@@ -137,3 +137,10 @@ li a:hover {
 }
 
 /* End second section */
+
+/* Bean journey Section */
+.img-cappuccino {
+  background: url("Images/2.png") no-repeat left/cover;
+  width: 400px;
+  height: 400px;
+}
